@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Inter';
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 39px;
+    justify-content: center;
+}
+
+.blog-item {
+    width: 481px;
+    flex-basis: 481px;
+    position: relative;
+    height: 545px;
+    background: rgba(236, 236, 236, 1);
+}
+
+.blog-item img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+    height: 294px;
+}
+
+.blog-item p {
+    margin: 0 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    position: absolute;
+    bottom: 70px;
+}
